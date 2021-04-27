@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5035915486712295531
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 432241808897776286}
+  - component: {fileID: 5282905126831369287}
+  m_Layer: 0
+  m_Name: Sawmill
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &432241808897776286
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5035915486712295531}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3053874313768610634}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5282905126831369287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5035915486712295531}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ea1c687b48240cfb232c2c6f67ef4f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meshRenderer:
+  - {fileID: 4191345328844296229}
+  - {fileID: 2300183325024234849}
+  - {fileID: 39991305977175494}
+  - {fileID: 3074282304228569543}
+  mainMeshFilter: {fileID: 2147743233052058863}
+  completedMaterial: {fileID: -6478536213147159724, guid: 1d21dd7d04a17ae458084759649c1fe4,
+    type: 3}
+  projectMaterial: {fileID: 2100000, guid: fe22eec9619e747468e83412fab25d4a, type: 2}
+--- !u!1001 &3308795523194113185
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 432241808897776286}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 136c1c5aa79750a4a8697788d8bbf050,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 136c1c5aa79750a4a8697788d8bbf050,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 136c1c5aa79750a4a8697788d8bbf050,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 136c1c5aa79750a4a8697788d8bbf050,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 136c1c5aa79750a4a8697788d8bbf050,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 136c1c5aa79750a4a8697788d8bbf050,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 136c1c5aa79750a4a8697788d8bbf050,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 136c1c5aa79750a4a8697788d8bbf050,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 136c1c5aa79750a4a8697788d8bbf050,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 136c1c5aa79750a4a8697788d8bbf050,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 136c1c5aa79750a4a8697788d8bbf050,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 136c1c5aa79750a4a8697788d8bbf050,
+        type: 3}
+      propertyPath: m_Name
+      value: sawmill
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 136c1c5aa79750a4a8697788d8bbf050, type: 3}
+--- !u!4 &3053874313768610634 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 136c1c5aa79750a4a8697788d8bbf050,
+    type: 3}
+  m_PrefabInstance: {fileID: 3308795523194113185}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &2147743233052058863 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: -5754084199372789682, guid: 136c1c5aa79750a4a8697788d8bbf050,
+    type: 3}
+  m_PrefabInstance: {fileID: 3308795523194113185}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &4191345328844296229 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 136c1c5aa79750a4a8697788d8bbf050,
+    type: 3}
+  m_PrefabInstance: {fileID: 3308795523194113185}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &2300183325024234849 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: 3603116592767689152, guid: 136c1c5aa79750a4a8697788d8bbf050,
+    type: 3}
+  m_PrefabInstance: {fileID: 3308795523194113185}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &39991305977175494 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -5952316015508663961, guid: 136c1c5aa79750a4a8697788d8bbf050,
+    type: 3}
+  m_PrefabInstance: {fileID: 3308795523194113185}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &3074282304228569543 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -8700610844969173658, guid: 136c1c5aa79750a4a8697788d8bbf050,
+    type: 3}
+  m_PrefabInstance: {fileID: 3308795523194113185}
+  m_PrefabAsset: {fileID: 0}
